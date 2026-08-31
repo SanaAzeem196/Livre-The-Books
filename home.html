@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre | The Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Livre Logo">
+    <div>
+        <h1>Livre</h1>
+        <p>The Books</p>
+    </div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="books.html">All Books</a>
+        <a href="cart.html">My Cart</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <p class="eyebrow">A WORLD BETWEEN THE COVERS</p>
+        <h2>Every book opens<br>a new world.</h2>
+        <p>Discover timeless stories, remarkable ideas, and unforgettable journeys at Livre.</p>
+        <a class="btn" href="books.html">Explore Books</a>
+    </div>
+</section>
+
+<section class="quotes">
+    <h2>Words Worth Remembering</h2>
+    <div class="quote-grid">
+        <div>“Books are a uniquely portable magic.”<br><small>— Stephen King</small></div>
+        <div>“Once you learn to read, you will be forever free.”<br><small>— Frederick Douglass</small></div>
+        <div>“A house without books is like a room without windows.”<br><small>— Horace Mann</small></div>
+        <div>“To read is to voyage through time.”<br><small>— Carl Sagan</small></div>
+    </div>
+</section>
+
+<section class="categories">
+    <h2>Explore by Category</h2>
+    <p>Choose a collection and discover what lies within it.</p>
+
+    <div class="category-buttons">
+        <button onclick="showCategories('fiction')">Fiction</button>
+        <button onclick="showCategories('nonfiction')">Non-Fiction</button>
+    </div>
+
+    <div id="categoryCard" class="category-card">
+        <h3>Choose a collection</h3>
+        <p>Select Fiction or Non-Fiction to explore our shelves.</p>
+    </div>
+</section>
+
+<footer>
+    <img src="logo.jpg" alt="Livre Logo">
+    <div>
+        <h3>Contact Livre</h3>
+        <p>Email: hello@livre.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Karachi, Pakistan</p>
+    </div>
+
+    <form onsubmit="sendMessage(event)">
+        <h3>Drop a Message</h3>
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <textarea placeholder="Your message" required></textarea>
+        <button class="btn">Send Message</button>
+    </form>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

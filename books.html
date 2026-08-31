@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre | All Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Livre Logo">
+    <div>
+        <h1>Livre</h1>
+        <p>The Books</p>
+    </div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="books.html">All Books</a>
+        <a href="cart.html">My Cart</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="page-title">
+    <p class="eyebrow">THE LIVRE COLLECTION</p>
+    <h2>Our Books</h2>
+    <p>Find your next story, idea, or adventure.</p>
+</section>
+
+<main class="books">
+
+    <div class="book">
+        <img src="images/book1.jpg" alt="The Great Gatsby">
+        <h3>The Great Gatsby</h3>
+        <p><b>Author:</b> F. Scott Fitzgerald</p>
+        <p><b>Edition:</b> Scribner Trade Paperback Edition</p>
+        
+        <p><b>Genre:</b> Literary Fiction</p>
+        <p>Set in the roaring 1920s, Jay Gatsby's obsessive pursuit of Daisy exposes the disillusionment of the American Dream.</p>
+        <strong>Rs. 1,250</strong>
+        <button onclick="addToCart('The Great Gatsby',1250)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book2.jpg" alt="And Then There Were None">
+        <h3>And Then There Were None</h3>
+        <p><b>Author:</b> Agatha Christie</p>
+        <p><b>Edition:</b> HarperCollins Paperback Edition</p>
+        
+        <p><b>Genre:</b> Mystery & Thriller</p>
+        <p>Ten strangers arrive at an isolated mansion where a sinister nursery rhyme begins predicting their deaths.</p>
+        <strong>Rs. 1,350</strong>
+        <button onclick="addToCart('And Then There Were None',1350)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book3.jpg" alt="1984">
+        <h3>1984</h3>
+        <p><b>Author:</b> George Orwell</p>
+        <p><b>Edition:</b> Signet Classics Mass Market Paperback</p>
+        
+        <p><b>Genre:</b> Dystopian / Science Fiction</p>
+        <p>Winston Smith attempts to rebel against Big Brother, surveillance, historical manipulation, and controlled thought.</p>
+        <strong>Rs. 1,100</strong>
+        <button onclick="addToCart('1984',1100)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book4.jpg" alt="The Hobbit">
+        <h3>The Hobbit, or There and Back Again</h3>
+        <p><b>Author:</b> J.R.R. Tolkien</p>
+        <p><b>Edition:</b> Houghton Mifflin Harcourt Boxed Set Edition</p>
+        
+        <p><b>Genre:</b> Fantasy</p>
+        <p>Bilbo Baggins joins Gandalf and thirteen dwarves on an epic quest to reclaim treasure from Smaug.</p>
+        <strong>Rs. 1,500</strong>
+        <button onclick="addToCart('The Hobbit, or There and Back Again',1500)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book5.jpg" alt="Pride and Prejudice">
+        <h3>Pride and Prejudice</h3>
+        <p><b>Author:</b> Jane Austen</p>
+        <p><b>Edition:</b> Penguin Classics Edition</p>
+        
+        <p><b>Genre:</b> Romance / Classic</p>
+        <p>Elizabeth Bennet and Mr. Darcy navigate first impressions, class, pride, love, and marriage in England.</p>
+        <strong>Rs. 1,200</strong>
+        <button onclick="addToCart('Pride and Prejudice',1200)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book6.jpg" alt="The Book Thief">
+        <h3>The Book Thief</h3>
+        <p><b>Author:</b> Markus Zusak</p>
+        <p><b>Edition:</b> Knopf Books for Young Readers Edition</p>
+        
+        <p><b>Genre:</b> Historical Fiction</p>
+        <p>Narrated by Death, Liesel finds comfort in books while growing up in Nazi Germany.</p>
+        <strong>Rs. 1,450</strong>
+        <button onclick="addToCart('The Book Thief',1450)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book7.jpg" alt="The Diary of a Young Girl">
+        <h3>The Diary of a Young Girl</h3>
+        <p><b>Author:</b> Anne Frank</p>
+        <p><b>Edition:</b> Bantam Doubleday Definitive Edition</p>
+        
+        <p><b>Genre:</b> Biography & Memoir / History</p>
+        <p>The preserved diary of Anne Frank, written while her family hid from Nazi persecution during World War II.</p>
+        <strong>Rs. 1,100</strong>
+        <button onclick="addToCart('The Diary of a Young Girl',1100)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book8.jpg" alt="Educated">
+        <h3>Educated</h3>
+        <p><b>Author:</b> Tara Westover</p>
+        <p><b>Edition:</b> Random House Hardcover Edition</p>
+        
+        <p><b>Genre:</b> Memoir / Personal Development</p>
+        <p>A powerful memoir about escaping isolation through education and eventually earning a PhD from Cambridge.</p>
+        <strong>Rs. 1,650</strong>
+        <button onclick="addToCart('Educated',1650)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book9.jpg" alt="In Cold Blood">
+        <h3>In Cold Blood</h3>
+        <p><b>Author:</b> Truman Capote</p>
+        <p><b>Edition:</b> Vintage International Edition</p>
+        
+        <p><b>Genre:</b> True Crime</p>
+        <p>A landmark true-crime account of the Clutter family murders and the investigation that followed.</p>
+        <strong>Rs. 1,400</strong>
+        <button onclick="addToCart('In Cold Blood',1400)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book10.jpg" alt="Sapiens">
+        <h3>Sapiens: A Brief History of Humankind</h3>
+        <p><b>Author:</b> Yuval Noah Harari</p>
+        <p><b>Edition:</b> Harper Perennial Paperback Edition</p>
+        
+        <p><b>Genre:</b> History / Anthropology</p>
+        <p>A sweeping history of humanity and the shared myths, religions, and systems that shaped civilization.</p>
+        <strong>Rs. 1,750</strong>
+        <button onclick="addToCart('Sapiens: A Brief History of Humankind',1750)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book11.jpg" alt="Cosmos">
+        <h3>Cosmos</h3>
+        <p><b>Author:</b> Carl Sagan</p>
+        <p><b>Edition:</b> Ballantine Books Edition</p>
+        
+        <p><b>Genre:</b> Science & Technology / Philosophy</p>
+        <p>A poetic exploration of cosmic evolution, scientific discovery, and humanity's place in the universe.</p>
+        <strong>Rs. 1,600</strong>
+        <button onclick="addToCart('Cosmos',1600)">Order Now</button>
+    </div>
+
+    <div class="book">
+        <img src="images/book12.jpg" alt="Atomic Habits">
+        <h3>Atomic Habits</h3>
+        <p><b>Author:</b> James Clear</p>
+        <p><b>Edition:</b> Avery Hardcover Edition</p>
+        
+        <p><b>Genre:</b> Self-Help & Personal Development</p>
+        <p>A practical guide showing how tiny improvements to everyday routines can create remarkable long-term results.</p>
+        <strong>Rs. 1,800</strong>
+        <button onclick="addToCart('Atomic Habits',1800)">Order Now</button>
+    </div>
+
+</main>
+
+<footer>
+    <img src="logo.jpg" alt="Livre Logo">
+    <div>
+        <h3>Contact Livre</h3>
+        <p>Email: hello@livre.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Karachi, Pakistan</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
