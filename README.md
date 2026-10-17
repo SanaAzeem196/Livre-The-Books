@@ -17,7 +17,7 @@
 
 ## Pages
 
-* `home.html` — Homepage, quotes, categories, and contact section
+* `index.html` — Homepage, quotes, categories, and contact section
 * `books.html` — Collection of available books
 * `cart.html` — Shopping cart and checkout
 * `about.html` — About Livre and contact information
@@ -26,7 +26,7 @@
 
 ```text
 Livre/
-├── home.html
+├── index.html
 ├── books.html
 ├── cart.html
 ├── about.html
