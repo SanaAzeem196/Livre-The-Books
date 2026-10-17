@@ -63,11 +63,22 @@ No server or installation is required.
 Simply open:
 
 ```text
-home.html
+index.html
 ```
 
 in a web browser.
 
+## Deployed link
+
+https://livre-the-books.netlify.app/
+
+![alt text](img/image.png)
+
+![alt text](img/image-1.png)
+
+![alt text](img/image-2.png)
+
+![alt text](img/image-3.png)
 ## Note
 
 This is a **front-end-only project**. Orders are simulated using JavaScript and are not sent to a real database or payment system.
